@@ -5,7 +5,7 @@ export default function App() {
   const isLoggedIn= true;
   return (
     <div>
-      <h1>Hello StackBlitz!</h1> {!isLoggedIn && <p>Start editing to see some magic happen :)</p> }
+      <h1>Hello StackBlitz!</h1> {isLoggedIn && <p>Start editing to see some magic happen :)</p> }
      
     </div>
   );
